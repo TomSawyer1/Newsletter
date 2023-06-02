@@ -20,7 +20,7 @@ def newsletter():
             'contenu': "Ceci est le contenu de l'article 3."
         }
     ]
-
+        #Juste pour voir !!!!
     # Rendu du template HTML
     return render_template('newsletter.html', titre=titre, articles=articles)
 
